@@ -20,6 +20,7 @@ module.exports = function(app){
 		var userData = req.body;
 
 //trying to get the difference between the new users score and the scores of the previouse users//
+//i also need code that will actually display the friend to the user in a modal//
 		for(var i = 0; i < friends.length; i++){
 			var difference = 0;
 			for(var x = 0; x < userScores.length; x++){
